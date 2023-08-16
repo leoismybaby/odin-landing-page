@@ -6,4 +6,24 @@ body {
 
 .footer {
     margin-top: auto;
+    justify-content: center;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
