@@ -60,3 +60,22 @@ ul {
     gap: 10px;
     font-size: 18px;
 }
+
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.testimonial {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.reviewer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
