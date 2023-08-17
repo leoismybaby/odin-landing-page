@@ -10,6 +10,10 @@ body {
     justify-content: center;
 }
 
+.header {
+    justify-content: space-between;
+}
+
 .header, .footer, .description {
     background-color: #1f2937;
     color: #f9faf8;
@@ -17,11 +21,14 @@ body {
     align-items: center;
 }
 
+.description {
+    gap: 18px;
+}
+
 .header, .description {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 24px;
-    justify-content: space-between;
 }
 
 .left {
@@ -29,13 +36,22 @@ body {
     flex-direction: column;
 }
 
-.header {
-    justify-content: space-between;
+.main {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .logo {
     font-size: 24px;
+}
+
+button {
+    align-self: flex-start;
 }
 
 ul {
