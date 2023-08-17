@@ -17,12 +17,20 @@ body {
     align-items: center;
 }
 
-
-.header {
-    justify-content: space-between;
+.header, .description {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 24px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    justify-content: space-between;
 }
 
 
