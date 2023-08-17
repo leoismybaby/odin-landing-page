@@ -10,18 +10,21 @@ body {
     justify-content: center;
 }
 
-.header, .footer {
+.header, .footer, .description {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     align-items: center;
 }
 
+
 .header {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 24px;
 }
+
 
 .logo {
     font-size: 24px;
