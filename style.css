@@ -34,6 +34,7 @@ body {
 .left {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .main {
@@ -51,9 +52,6 @@ body {
     font-weight: bold;
 }
 
-button {
-    align-self: flex-start;
-}
 
 ul {
     list-style: none;
@@ -95,12 +93,13 @@ button, .mailing-list {
     gap: 30px;
 }
 
-.mailing-list button {
+button {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 2px #f9faf8 solid;
     flex-shrink: 0;
+    align-self: flex-start;
 }
 
