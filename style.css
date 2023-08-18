@@ -58,7 +58,7 @@ button {
 ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
 }
 
@@ -101,5 +101,6 @@ button, .mailing-list {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 2px #f9faf8 solid;
+    flex-shrink: 0;
 }
 
