@@ -86,3 +86,8 @@ button, .mailing-list {
     color: #f9faf8;
     border-radius: 5px;
 }
+
+.mailing-list {
+    margin: 50px;
+    padding: 20px;
+}
