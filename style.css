@@ -12,6 +12,7 @@ body {
 
 .header {
     justify-content: space-between;
+    padding-bottom: 24px;
 }
 
 .header, .footer, .description {
@@ -23,12 +24,12 @@ body {
 
 .description {
     gap: 18px;
+    padding-bottom: 60px;
 }
 
 .header, .description {
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 24px;
 }
 
 .left {
