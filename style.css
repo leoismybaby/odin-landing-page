@@ -72,10 +72,17 @@ ul {
 .testimonial {
     font-size: 36px;
     color: #1F2937;
+
 }
 
 .reviewer {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+
+button, .mailing-list {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
 }
