@@ -104,3 +104,21 @@ button {
     align-self: flex-start;
 }
 
+.information {
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.info-sections {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
